@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Jquery UI Example</title>
+<style type="text/css">
+	h1 {		color: 				red; }
+	p {			color: 				blue;
+				margin-left:		30px; }
+	body {		background-color: 	lightblue; 
+				font:				15px arial, sans-serif;}
+	#container {	width:			600px; }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jqFancyTransitions.1.8.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready( function(){
+    $('#slideshowHolder').jqFancyTransitions({ width: 640, height: 427, effect: 'curtain', navigation: true });
+});
+</script>
+</head>
+
+<body>
+<h1>Jquery Fancy Transitions</h1>
+<div id='slideshowHolder'>
+	<img src="images/ex6_1.jpg" alt="apples" /></a></li>
+	<img src="images/ex6_2.jpg" alt="bananas" /></a></li>
+	<img src="images/ex6_3.jpg" alt="grapes" /></a></li>
+	<img src="images/ex6_4.jpg" alt="orange" /></a></li>
+	<img src="images/ex6_5.jpg" alt="pear" /></a></li>
+	<img src="images/ex6_6.jpg" alt="strawberries" /></a></li>
+	<img src="images/ex6_7.jpg" alt="pineapple" /></a></li>
+</div>
+</body>
+</html>
